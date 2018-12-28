@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}",
+                "/home/wduembeg/.arduino15/packages/rambo/hardware/avr/1.0.1/**",
+                "/home/wduembeg/.arduino15/packages/arduino/tools/**",
+                "/home/wduembeg/Arduino/libraries/**",
+                "/home/wduembeg/Documents/Arduino/sketchbook/libraries/**"
+
+            ],
+            "forcedInclude": [],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false,
+                "path": [
+                    "${workspaceFolder}",
+                    "/home/wduembeg/.arduino15/packages/rambo/hardware/avr/1.0.1/**",
+                    "/home/wduembeg/.arduino15/packages/arduino/tools/**",
+                    "/home/wduembeg/Arduino/libraries/**",
+                    "/home/wduembeg/Documents/Arduino/sketchbook/libraries/**"
+                ]
+            },
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

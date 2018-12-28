@@ -1,0 +1,6 @@
+{
+    "board": "rambo:avr:rambo",
+    "sketch": "Marlin.ino",
+    "output": "../build",
+    "port": "/dev/ttyACM0"
+}
