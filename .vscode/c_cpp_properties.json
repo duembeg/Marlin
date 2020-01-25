@@ -1,0 +1,67 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-1.1.x/Marlin",
+                "/home/wduembeg/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-1.1.x/.piolibdeps/megaatmega2560/c1921b4",
+                "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-1.1.x/.piolibdeps/megaatmega2560/Arduino-L6470/src",
+                "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-1.1.x/.piolibdeps/megaatmega2560/30aa480",
+                "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-1.1.x/.piolibdeps/megaatmega2560/Adafruit NeoPixel_ID28",
+                "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-1.1.x/.piolibdeps/megaatmega2560/TMC2208Stepper/src",
+                "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-1.1.x/.piolibdeps/megaatmega2560/TMC2130Stepper_ID1493/src",
+                "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-1.1.x/.piolibdeps/megaatmega2560/LiquidCrystal_I2C_ID576",
+                "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-1.1.x/.piolibdeps/megaatmega2560/U8glib-HAL_ID1932/src",
+                "/home/wduembeg/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/wduembeg/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/home/wduembeg/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/wduembeg/.platformio/packages/framework-arduino-avr/variants/mega",
+                "/home/wduembeg/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/wduembeg/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/wduembeg/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-1.1.x/Marlin",
+                    "/home/wduembeg/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-1.1.x/.piolibdeps/megaatmega2560/c1921b4",
+                    "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-1.1.x/.piolibdeps/megaatmega2560/Arduino-L6470/src",
+                    "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-1.1.x/.piolibdeps/megaatmega2560/30aa480",
+                    "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-1.1.x/.piolibdeps/megaatmega2560/Adafruit NeoPixel_ID28",
+                    "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-1.1.x/.piolibdeps/megaatmega2560/TMC2208Stepper/src",
+                    "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-1.1.x/.piolibdeps/megaatmega2560/TMC2130Stepper_ID1493/src",
+                    "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-1.1.x/.piolibdeps/megaatmega2560/LiquidCrystal_I2C_ID576",
+                    "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-1.1.x/.piolibdeps/megaatmega2560/U8glib-HAL_ID1932/src",
+                    "/home/wduembeg/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/wduembeg/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/home/wduembeg/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/wduembeg/.platformio/packages/framework-arduino-avr/variants/mega",
+                    "/home/wduembeg/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/wduembeg/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/wduembeg/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=40100",
+                "ARDUINO_AVR_MEGA2560",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega2560__",
+                ""
+            ],
+            "intelliSenseMode": "clang-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "\"/home/wduembeg/.platformio/packages/toolchain-atmelavr/bin/avr-gcc\" -mmcu=atmega2560"
+        }
+    ],
+    "version": 4
+}
