@@ -12,7 +12,7 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug",
-            "executable": "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-1.1.x/.pioenvs/megaatmega2560/firmware.elf",
+            "executable": "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-XL-1.1.x/.pioenvs/megaatmega2560/firmware.elf",
             "toolchainBinDir": "/home/wduembeg/.platformio/packages/toolchain-atmelavr/bin",
             "preLaunchTask": {
                 "type": "PlatformIO",
@@ -24,7 +24,7 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (skip Pre-Debug)",
-            "executable": "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-1.1.x/.pioenvs/megaatmega2560/firmware.elf",
+            "executable": "/home/wduembeg/Documents/Makerbot_Evolution/EinsyRambo/Rep1-Evo-XL-1.1.x/.pioenvs/megaatmega2560/firmware.elf",
             "toolchainBinDir": "/home/wduembeg/.platformio/packages/toolchain-atmelavr/bin",
             "internalConsoleOptions": "openOnSessionStart"
         }
