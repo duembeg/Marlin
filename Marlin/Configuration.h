@@ -2064,6 +2064,16 @@
   #define DOGLCD_CS LCD_PINS_D5
   #define DOGLCD_MOSI MOSI_PIN      // MOSI
   #define DOGLCD_SCK SCK_PIN        // SCK
+
+  //#define ST7920_DELAY_1 DELAY_NS(0)
+  //#define ST7920_DELAY_2 DELAY_NS(400)
+  //#define ST7920_DELAY_3 DELAY_NS(0)
+
+  //#define SPI_SPEED SPI_HALF_SPEED
+  //#define SPI_SPEED SPI_QUARTER_SPEED
+  //#define SPI_SPEED SPI_EIGHTH_SPEED
+
+
 #endif
 
 //
