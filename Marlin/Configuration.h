@@ -71,7 +71,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(wduembeg Rep1 Evo XL config)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(wduembeg Rep2 Evo config)" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -134,7 +134,8 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Rep 1 Evo XL"
+//#define CUSTOM_MACHINE_NAME "Rep 2 Evo"
+#define CUSTOM_MACHINE_NAME "Noiman-UC"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
@@ -484,10 +485,12 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
-  // Replicator 1 Evo XL
-  #define DEFAULT_Kp 27.76
-  #define DEFAULT_Ki 3.77
-  #define DEFAULT_Kd 51.10
+  // Replicator 2 Evo
+  #define DEFAULT_Kp 21.71
+  #define DEFAULT_Ki 2.22
+  #define DEFAULT_Kd 53.13
+
+  // default values
   //#define DEFAULT_Kp 26.19
   //#define DEFAULT_Ki 2.63
   //#define DEFAULT_Kd 65.14
@@ -542,10 +545,14 @@
   //#define MIN_BED_POWER 0
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
-  // Replicator 1 Evo XL
-  #define DEFAULT_bedKp 121.34
-  #define DEFAULT_bedKi 23.63
-  #define DEFAULT_bedKd 415.38
+  // Replicator 2 Evo
+  #define DEFAULT_bedKp 57.58
+  #define DEFAULT_bedKi 11.05
+  #define DEFAULT_bedKd 200.01
+
+  //#define DEFAULT_bedKp 121.34
+  //#define DEFAULT_bedKi 23.63
+  //#define DEFAULT_bedKd 415.38
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
@@ -970,7 +977,7 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET { -24.38, -36.76, -0.6 }
+#define NOZZLE_TO_PROBE_OFFSET { -24.38, -36.76, -2.0 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1077,7 +1084,7 @@
 // @section extruder
 
 // For direct drive extruder v9 set to true, for geared extruder set to false.
-#define INVERT_E0_DIR true
+#define INVERT_E0_DIR false
 #define INVERT_E1_DIR false
 #define INVERT_E2_DIR false
 #define INVERT_E3_DIR false
@@ -1115,7 +1122,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS 116
 #define Y_MAX_POS 79
-#define Z_MAX_POS 250
+#define Z_MAX_POS 150
 
 /**
  * Software Endstops
